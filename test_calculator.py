@@ -13,3 +13,18 @@ def test_substraction():
     assert substraction(-1, -2) == 1
     assert substraction(0, 0) == 0
 
+def test_multiply():
+    assert multiply(5, 2) == 10
+    assert multiply(-1, 2) == -2
+    assert multiply(-1, -2) == 2
+    assert multiply(0, 0) == 0
+
+def test_division():
+    assert division(6, 2) == 3
+    assert division(-10, 2) == -5
+    assert division(-45, -5) == 9
+    assert division(0, 0) == "Error: Cannot divide by zero"
+
+
+
+
